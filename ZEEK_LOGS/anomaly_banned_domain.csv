@@ -1,0 +1,299 @@
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,0,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:03:04.310033521Z,15,connections,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,0,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:03:04.31525454Z,8,connections,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,0,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:04:04.417186865Z,3,connections,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,0,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:04:04.421201883Z,1,connections,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,0,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:05:04.503493752Z,1,connections,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,0,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:06:04.556010767Z,1,connections,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,1,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:03:04.310033521Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,1,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:03:04.31525454Z,gmlinteractive.com,domain,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,1,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:04:04.417186865Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,1,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:04:04.421201883Z,gmlinteractive.com,domain,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,1,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:05:04.503493752Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,1,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:06:04.556010767Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,2,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:03:04.310033521Z,N/A,service,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,2,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:03:04.31525454Z,N/A,service,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,2,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:04:04.417186865Z,N/A,service,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,2,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:04:04.421201883Z,N/A,service,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,2,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:05:04.503493752Z,N/A,service,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,2,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:06:04.556010767Z,N/A,service,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,3,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:03:04.310033521Z,4,severity,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,3,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:03:04.31525454Z,4,severity,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,3,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:04:04.417186865Z,4,severity,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,3,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:04:04.421201883Z,4,severity,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,3,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:05:04.503493752Z,4,severity,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,3,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T13:06:04.556010767Z,4,severity,anomaly_banned_domain,DNS/Web,FUJITSU LIMITED,192.168.69.213,Zakazana domena,74:2b:62:7b:33:cd,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:14:32.730060792Z,2,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:15:32.767021182Z,1,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:16:32.809762265Z,1,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:00:43.720746456Z,2,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:00:43.723668233Z,1,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:01:43.764653613Z,1,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-30T22:00:45.830045364Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T17:38:39.402626193Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T17:40:39.482828387Z,2,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T19:55:23.116074346Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.470727107Z,14,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.476354406Z,4,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.479339555Z,4,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.482262094Z,4,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.575681238Z,14,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.60013038Z,4,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.60395116Z,4,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.607625032Z,4,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:22.517511992Z,2,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:22.523045346Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:26.645756536Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:26.651619539Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:22.455118837Z,1,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:22.459609431Z,1,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:26.685465098Z,1,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T11:48:24.226368435Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T11:48:28.562504371Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.825295794Z,14,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.829668241Z,4,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.832469446Z,2,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.835367484Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:55:03.875959059Z,1,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:55:03.881833525Z,2,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:56:03.916725838Z,1,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T18:36:06.784049843Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T16:29:44.738103851Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:05:46.372573959Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:31:47.655368378Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:32:47.72528735Z,1,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T18:55:51.534732676Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T19:33:53.08751527Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T19:39:53.465715744Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T21:16:57.925989266Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-06T15:42:32.846599202Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-06T17:07:35.910354238Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-08T16:47:30.9551334Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T16:07:44.367943602Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T17:43:47.906371543Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T17:46:48.009408328Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T18:00:48.483009418Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T19:25:51.419531766Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T20:11:53.046958235Z,8,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T23:54:00.927275923Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T00:34:02.246107166Z,11,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T14:38:31.241265723Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T14:49:31.641000019Z,5,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T14:53:31.764636376Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T15:01:31.956396211Z,8,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T15:41:33.475971273Z,8,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T16:25:34.912322136Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T17:30:43.879876004Z,5,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T17:59:15.927584389Z,9,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T20:53:39.757956652Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T21:41:48.404230037Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T23:36:40.64407502Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-14T00:07:32.366639819Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-14T00:17:32.856802934Z,3,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-16T16:03:01.407458161Z,6,connections,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:14:32.730060792Z,discord.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:15:32.767021182Z,discord.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:16:32.809762265Z,discord.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:00:43.720746456Z,discordapp.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:00:43.723668233Z,discord.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:01:43.764653613Z,discord.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-30T22:00:45.830045364Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T17:38:39.402626193Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T17:40:39.482828387Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T19:55:23.116074346Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.470727107Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.476354406Z,gmlinteractive.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.479339555Z,betano.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.482262094Z,kaizengaming.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.575681238Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.60013038Z,gmlinteractive.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.60395116Z,betano.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.607625032Z,kaizengaming.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:22.517511992Z,gmlinteractive.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:22.523045346Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:26.645756536Z,gmlinteractive.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:26.651619539Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:22.455118837Z,gmlinteractive.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:22.459609431Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:26.685465098Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T11:48:24.226368435Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T11:48:28.562504371Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.825295794Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.829668241Z,betano.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.832469446Z,gmlinteractive.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.835367484Z,kaizengaming.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:55:03.875959059Z,gmlinteractive.com,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:55:03.881833525Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:56:03.916725838Z,betano.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T18:36:06.784049843Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T16:29:44.738103851Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:05:46.372573959Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:31:47.655368378Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:32:47.72528735Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T18:55:51.534732676Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T19:33:53.08751527Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T19:39:53.465715744Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T21:16:57.925989266Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-06T15:42:32.846599202Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-06T17:07:35.910354238Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-08T16:47:30.9551334Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T16:07:44.367943602Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T17:43:47.906371543Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T17:46:48.009408328Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T18:00:48.483009418Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T19:25:51.419531766Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T20:11:53.046958235Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T23:54:00.927275923Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T00:34:02.246107166Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T14:38:31.241265723Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T14:49:31.641000019Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T14:53:31.764636376Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T15:01:31.956396211Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T15:41:33.475971273Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T16:25:34.912322136Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T17:30:43.879876004Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T17:59:15.927584389Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T20:53:39.757956652Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T21:41:48.404230037Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T23:36:40.64407502Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-14T00:07:32.366639819Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-14T00:17:32.856802934Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-16T16:03:01.407458161Z,im.cz,domain,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:14:32.730060792Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:15:32.767021182Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:16:32.809762265Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:00:43.720746456Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:00:43.723668233Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:01:43.764653613Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-30T22:00:45.830045364Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T17:38:39.402626193Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T17:40:39.482828387Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T19:55:23.116074346Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.470727107Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.476354406Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.479339555Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.482262094Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.575681238Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.60013038Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.60395116Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.607625032Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:22.517511992Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:22.523045346Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:26.645756536Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:26.651619539Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:22.455118837Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:22.459609431Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:26.685465098Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T11:48:24.226368435Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T11:48:28.562504371Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.825295794Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.829668241Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.832469446Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.835367484Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:55:03.875959059Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:55:03.881833525Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:56:03.916725838Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T18:36:06.784049843Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T16:29:44.738103851Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:05:46.372573959Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:31:47.655368378Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:32:47.72528735Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T18:55:51.534732676Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T19:33:53.08751527Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T19:39:53.465715744Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T21:16:57.925989266Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-06T15:42:32.846599202Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-06T17:07:35.910354238Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-08T16:47:30.9551334Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T16:07:44.367943602Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T17:43:47.906371543Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T17:46:48.009408328Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T18:00:48.483009418Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T19:25:51.419531766Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T20:11:53.046958235Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-11T23:54:00.927275923Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T00:34:02.246107166Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T14:38:31.241265723Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T14:49:31.641000019Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T14:53:31.764636376Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T15:01:31.956396211Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T15:41:33.475971273Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T16:25:34.912322136Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T17:30:43.879876004Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T17:59:15.927584389Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T20:53:39.757956652Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T21:41:48.404230037Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-12T23:36:40.64407502Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-14T00:07:32.366639819Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-14T00:17:32.856802934Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-16T16:03:01.407458161Z,N/A,service,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:14:32.730060792Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:15:32.767021182Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T19:16:32.809762265Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:00:43.720746456Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:00:43.723668233Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-29T21:01:43.764653613Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-30T22:00:45.830045364Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T17:38:39.402626193Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T17:40:39.482828387Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-03-31T19:55:23.116074346Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.470727107Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.476354406Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.479339555Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:22.482262094Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.575681238Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.60013038Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.60395116Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:56:26.607625032Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:22.517511992Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:22.523045346Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:26.645756536Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:57:26.651619539Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:22.455118837Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:22.459609431Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T10:58:26.685465098Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T11:48:24.226368435Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T11:48:28.562504371Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.825295794Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.829668241Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.832469446Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:54:03.835367484Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:55:03.875959059Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:55:03.881833525Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T12:56:03.916725838Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-01T18:36:06.784049843Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T16:29:44.738103851Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:05:46.372573959Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:31:47.655368378Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T17:32:47.72528735Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T18:55:51.534732676Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T19:33:53.08751527Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T19:39:53.465715744Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-05T21:16:57.925989266Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-06T15:42:32.846599202Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-06T17:07:35.910354238Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:43.316518209Z,2026-04-08T16:47:30.9551334Z,4,severity,anomaly_banned_domain,DNS/Web,PWRHOUSE,192.168.69.5,Zakazana domena,10:7c:61:06:b1:fc,home
+

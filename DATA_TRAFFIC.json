@@ -1,0 +1,679 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "grafana",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "links": [
+    {
+      "asDropdown": false,
+      "icon": "external link",
+      "includeVars": false,
+      "keepTime": false,
+      "tags": [],
+      "targetBlank": false,
+      "title": "New link",
+      "tooltip": "",
+      "type": "dashboards",
+      "url": ""
+    }
+  ],
+  "panels": [
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "efexcfsoybbb4a"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "palette-classic"
+          },
+          "custom": {
+            "axisBorderShow": false,
+            "axisCenteredZero": false,
+            "axisColorMode": "text",
+            "axisLabel": "",
+            "axisPlacement": "auto",
+            "barAlignment": 0,
+            "barWidthFactor": 0.6,
+            "drawStyle": "line",
+            "fillOpacity": 0,
+            "gradientMode": "none",
+            "hideFrom": {
+              "legend": false,
+              "tooltip": false,
+              "viz": false
+            },
+            "insertNulls": false,
+            "lineInterpolation": "linear",
+            "lineStyle": {
+              "fill": "solid"
+            },
+            "lineWidth": 1,
+            "pointSize": 5,
+            "scaleDistribution": {
+              "type": "linear"
+            },
+            "showPoints": "auto",
+            "showValues": false,
+            "spanNulls": false,
+            "stacking": {
+              "group": "A",
+              "mode": "none"
+            },
+            "thresholdsStyle": {
+              "mode": "off"
+            }
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          },
+          "unit": "MB"
+        },
+        "overrides": []
+      },
+      "gridPos": {
+        "h": 8,
+        "w": 24,
+        "x": 0,
+        "y": 0
+      },
+      "id": 4,
+      "maxDataPoints": 99999999,
+      "options": {
+        "legend": {
+          "calcs": [
+            "sum"
+          ],
+          "displayMode": "table",
+          "placement": "right",
+          "showLegend": true,
+          "sortBy": "Total",
+          "sortDesc": true
+        },
+        "tooltip": {
+          "hideZeros": false,
+          "mode": "single",
+          "sort": "none"
+        }
+      },
+      "pluginVersion": "12.4.0",
+      "targets": [
+        {
+          "query": "from(bucket: \"zeek\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => \r\n      r[\"_measurement\"] == \"tail\" and \r\n      r[\"path\"] == \"/opt/zeek/spool/zeek/conn.log\" and \r\n      r[\"id.orig_h\"] =~ /^192\\.168\\.69\\./ and \r\n      (r[\"_field\"] == \"resp_bytes\" or r[\"_field\"] == \"orig_bytes\")\r\n  )\r\n  |> map(fn: (r) => ({ \r\n      r with \r\n      orig_l2_addr: if exists r.orig_l2_addr then r.orig_l2_addr else \"unknown\"\r\n  }))\r\n  |> pivot(\r\n      rowKey:[\"_time\", \"id.orig_h\", \"orig_l2_addr\"], \r\n      columnKey: [\"_field\"], \r\n      valueColumn: \"_value\"\r\n  )\r\n  |> map(fn: (r) => {\r\n      orig = if exists r.orig_bytes then float(v: r.orig_bytes) else 0.0\r\n      resp = if exists r.resp_bytes then float(v: r.resp_bytes) else 0.0\r\n      return {\r\n          _time: r._time,\r\n          _field: r[\"id.orig_h\"] + \" (\" + r.orig_l2_addr + \")\",\r\n          _value: (orig + resp) / 1048576.0 \r\n      }\r\n  })\r\n  |> group(columns: [\"_field\"])\r\n  |> aggregateWindow(every: 1m, fn: sum, createEmpty: false)",
+          "refId": "A"
+        }
+      ],
+      "title": "Celkový provoz",
+      "type": "timeseries"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "efexcfsoybbb4a"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "filterable": true,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Čas posledního dotazu"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 246
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Doména"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 328
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 14,
+        "x": 0,
+        "y": 8
+      },
+      "id": 7,
+      "options": {
+        "cellHeight": "sm",
+        "showHeader": true
+      },
+      "pluginVersion": "12.4.0",
+      "targets": [
+        {
+          "query": "from(bucket: \"zeek\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => \r\n      r.path =~ /dns/ and \r\n      r[\"id.orig_h\"] =~ /^192\\.168\\.69\\./ and \r\n      exists r.query\r\n  )\r\n  |> group(columns: [\"query\", \"id.orig_h\"])\r\n  |> reduce(\r\n      fn: (r, accumulator) => ({\r\n        Query_count: accumulator.Query_count + 1,\r\n        Last_query: if r._time > accumulator.Last_query then r._time else accumulator.Last_query\r\n      }),\r\n      identity: {\r\n        Query_count: 0,\r\n        Last_query: 1970-01-01T00:00:00Z\r\n      }\r\n    )\r\n  |> group()\r\n  |> sort(columns: [\"Query_count\"], desc: true)\r\n  |> map(fn: (r) => ({\r\n      \"Čas posledního dotazu\": r.Last_query,\r\n      \"Doména\": r.query,\r\n      \"Počet dotazů\": r.Query_count,\r\n      \"Zdrojová IP\": r[\"id.orig_h\"]\r\n  }))",
+          "refId": "A"
+        }
+      ],
+      "title": "DNS dotazy",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {},
+            "includeByName": {},
+            "indexByName": {
+              "Doména": 1,
+              "Počet dotazů": 3,
+              "Zdrojová IP": 2,
+              "Čas posledního dotazu": 0
+            },
+            "renameByName": {}
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "efexcfsoybbb4a"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "auto",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "filterable": true,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Naposledy viděno"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 166
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 9,
+        "w": 10,
+        "x": 14,
+        "y": 8
+      },
+      "id": 6,
+      "options": {
+        "cellHeight": "sm",
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "IP"
+          }
+        ]
+      },
+      "pluginVersion": "12.4.0",
+      "targets": [
+        {
+          "query": "import \"strings\"\r\n\r\nnorm = from(bucket: \"zeek\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] == \"normal_traffic\" and r[\"_field\"] == \"connections\")\r\n  |> map(fn: (r) => ({\r\n      _time: r._time,\r\n      IP: r.top_ip,\r\n      MAC: r.top_mac,\r\n      Název: r.device\r\n  }))\r\n\r\nanom = from(bucket: \"zeek\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => r[\"_measurement\"] =~ /^anomaly_/ and r[\"_field\"] == \"domain\")\r\n  |> map(fn: (r) => ({\r\n      _time: r._time,\r\n      IP: r.ip,\r\n      MAC: r.mac,\r\n      Název: r.device\r\n  }))\r\n\r\nunion(tables: [norm, anom])\r\n  |> filter(fn: (r) => exists r.IP and r.IP != \"N/A\" and r.IP != \"\")\r\n  // ZDE JSME PŘIDALI FILTR NA LOKÁLNÍ SÍŤ\r\n  |> filter(fn: (r) => r.IP =~ /^192\\.168\\.69\\./) \r\n  |> group(columns: [\"IP\", \"MAC\", \"Název\"])\r\n  |> last(column: \"_time\")\r\n  |> group()\r\n  |> sort(columns: [\"IP\"])\r\n  |> map(fn: (r) => ({\r\n      \"Název\": r.Název,\r\n      \"IP\": r.IP,\r\n      \"MAC\": r.MAC\r\n  }))",
+          "refId": "A"
+        }
+      ],
+      "title": "Seznam aktivních zařízení",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {},
+            "includeByName": {},
+            "indexByName": {
+              "IP": 3,
+              "MAC": 1,
+              "Naposledy viděno": 0,
+              "Název": 2
+            },
+            "renameByName": {
+              "Název": ""
+            }
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "efexcfsoybbb4a"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "filterable": true,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "_value"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 120
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "IP"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 160
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "MAC"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 225
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 8,
+        "x": 0,
+        "y": 17
+      },
+      "id": 2,
+      "options": {
+        "cellHeight": "sm",
+        "showHeader": true,
+        "sortBy": []
+      },
+      "pluginVersion": "12.4.0",
+      "targets": [
+        {
+          "query": "from(bucket: \"zeek\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => \r\n      r[\"_measurement\"] == \"tail\" and \r\n      r[\"path\"] =~ /conn/ and \r\n      r[\"id.orig_h\"] =~ /^192\\.168\\.69\\./ and \r\n      r[\"_field\"] == \"resp_bytes\"\r\n  )\r\n  |> map(fn: (r) => ({ r with orig_l2_addr: if exists r.orig_l2_addr then r.orig_l2_addr else \"unknown\" }))\r\n  |> group(columns: [\"orig_l2_addr\", \"id.orig_h\"])\r\n  |> sum()\r\n  |> group()\r\n  |> filter(fn: (r) => r._value > 0.0)\r\n  |> sort(columns: [\"_value\"], desc: true)\r\n  |> map(fn: (r) => ({\r\n      \"MAC\": r.orig_l2_addr,\r\n      \"IP\": r[\"id.orig_h\"],\r\n      \"Download (MB)\": float(v: r._value) / 1048576.0\r\n  }))",
+          "refId": "A"
+        }
+      ],
+      "title": "Download",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {},
+            "includeByName": {},
+            "indexByName": {
+              "Download (MB)": 2,
+              "IP": 0,
+              "MAC": 1
+            },
+            "renameByName": {}
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "efexcfsoybbb4a"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "filterable": true,
+            "footer": {
+              "reducers": []
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "MAC"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 245
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "IP"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 170
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 8,
+        "x": 8,
+        "y": 17
+      },
+      "id": 3,
+      "options": {
+        "cellHeight": "sm",
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Upload_MB"
+          }
+        ]
+      },
+      "pluginVersion": "12.4.0",
+      "targets": [
+        {
+          "query": "from(bucket: \"zeek\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => \r\n      r[\"_measurement\"] == \"tail\" and \r\n      r[\"path\"] =~ /conn/ and \r\n      r[\"id.orig_h\"] =~ /^192\\.168\\.69\\./ and \r\n      r[\"_field\"] == \"orig_bytes\" \r\n  )\r\n  |> map(fn: (r) => ({ r with orig_l2_addr: if exists r.orig_l2_addr then r.orig_l2_addr else \"unknown\" }))\r\n  |> group(columns: [\"orig_l2_addr\", \"id.orig_h\"])\r\n  |> sum()\r\n  |> group()\r\n  |> filter(fn: (r) => r._value > 0.0)\r\n  |> sort(columns: [\"_value\"], desc: true)\r\n  |> map(fn: (r) => ({\r\n      \"MAC\": r.orig_l2_addr,\r\n      \"IP\": r[\"id.orig_h\"],\r\n      \"Upload (MB)\": float(v: r._value) / 1048576.0\r\n  }))",
+          "refId": "A"
+        }
+      ],
+      "title": "Upload",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {},
+            "includeByName": {},
+            "indexByName": {
+              "IP": 0,
+              "MAC": 1,
+              "Upload (MB)": 2
+            },
+            "renameByName": {}
+          }
+        }
+      ],
+      "type": "table"
+    },
+    {
+      "datasource": {
+        "type": "influxdb",
+        "uid": "efexcfsoybbb4a"
+      },
+      "fieldConfig": {
+        "defaults": {
+          "color": {
+            "mode": "thresholds"
+          },
+          "custom": {
+            "align": "left",
+            "cellOptions": {
+              "type": "auto"
+            },
+            "filterable": true,
+            "footer": {
+              "reducers": []
+            },
+            "hideFrom": {
+              "viz": false
+            },
+            "inspect": false
+          },
+          "mappings": [],
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {
+                "color": "green",
+                "value": 0
+              },
+              {
+                "color": "red",
+                "value": 80
+              }
+            ]
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "IP"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 192
+              }
+            ]
+          },
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "MAC"
+            },
+            "properties": [
+              {
+                "id": "custom.width",
+                "value": 240
+              }
+            ]
+          }
+        ]
+      },
+      "gridPos": {
+        "h": 10,
+        "w": 8,
+        "x": 16,
+        "y": 17
+      },
+      "id": 1,
+      "options": {
+        "cellHeight": "sm",
+        "showHeader": true,
+        "sortBy": [
+          {
+            "desc": true,
+            "displayName": "Total_MB"
+          }
+        ]
+      },
+      "pluginVersion": "12.4.0",
+      "targets": [
+        {
+          "datasource": {
+            "type": "influxdb",
+            "uid": "efexcfsoybbb4a"
+          },
+          "query": "from(bucket: \"zeek\")\r\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\r\n  |> filter(fn: (r) => \r\n      r[\"_measurement\"] == \"tail\" and \r\n      r[\"path\"] == \"/opt/zeek/spool/zeek/conn.log\" and \r\n      r[\"id.orig_h\"] =~ /^192\\.168\\.69\\./ and \r\n      (r[\"_field\"] == \"resp_bytes\" or r[\"_field\"] == \"orig_bytes\")\r\n  )\r\n  |> map(fn: (r) => ({ r with orig_l2_addr: if exists r.orig_l2_addr then r.orig_l2_addr else \"unknown\" }))\r\n  |> group(columns: [\"id.orig_h\", \"orig_l2_addr\", \"_field\"])\r\n  |> sum()\r\n  |> pivot(rowKey:[\"id.orig_h\", \"orig_l2_addr\"], columnKey: [\"_field\"], valueColumn: \"_value\")\r\n  |> map(fn: (r) => {\r\n      orig = if exists r.orig_bytes then float(v: r.orig_bytes) else 0.0\r\n      resp = if exists r.resp_bytes then float(v: r.resp_bytes) else 0.0\r\n      return {\r\n          \"IP\": r[\"id.orig_h\"],\r\n          \"MAC\": r.orig_l2_addr,\r\n          \"Celkem (MB)\": (orig + resp) / 1048576.0\r\n      }\r\n  })\r\n  |> filter(fn: (r) => r[\"Celkem (MB)\"] > 0.0)\r\n  |> sort(columns: [\"Celkem (MB)\"], desc: true)",
+          "refId": "A"
+        }
+      ],
+      "title": "Celkový provoz",
+      "transformations": [
+        {
+          "id": "organize",
+          "options": {
+            "excludeByName": {},
+            "includeByName": {},
+            "indexByName": {
+              "Celkem (MB)": 2,
+              "IP": 0,
+              "MAC": 1
+            },
+            "renameByName": {}
+          }
+        }
+      ],
+      "type": "table"
+    }
+  ],
+  "preload": false,
+  "refresh": "1m",
+  "schemaVersion": 42,
+  "tags": [],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-1h",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "browser",
+  "title": "DATA_TRAFFIC",
+  "uid": "adcmz6h",
+  "version": 66,
+  "weekStart": ""
+}

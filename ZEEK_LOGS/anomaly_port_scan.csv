@@ -1,0 +1,370 @@
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,0,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T16:52:35.910449939Z,3256,connections,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+,,0,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:06:03.185811209Z,1025,connections,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+,,0,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:44:59.23648522Z,1025,connections,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+,,0,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T21:20:44.67521484Z,1025,connections,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,1,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T16:52:35.910449939Z,Zadna,domain,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+,,1,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:06:03.185811209Z,Zadna,domain,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+,,1,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:44:59.23648522Z,Zadna,domain,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+,,1,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T21:20:44.67521484Z,Zadna,domain,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+,,2,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T16:52:35.910449939Z,Vice portu (3262),service,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+,,2,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:06:03.185811209Z,Vice portu (1024),service,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+,,2,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:44:59.23648522Z,Vice portu (1024),service,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+,,2,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T21:20:44.67521484Z,Vice portu (1024),service,anomaly_port_scan,192.168.69.3,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,3,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:39:44.159643982Z,1025,connections,anomaly_port_scan,Ruzne,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,4,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:39:44.159643982Z,Zadna,domain,anomaly_port_scan,Ruzne,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+,,5,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:39:44.159643982Z,Vice portu (1024),service,anomaly_port_scan,Ruzne,PCS Computer Systems GmbH,192.168.69.208,Cileny Port Scan (1 IP),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,6,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-30T17:19:33.926425597Z,163,connections,anomaly_port_scan,Subnet (101 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,7,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-30T17:19:33.926425597Z,Zadna,domain,anomaly_port_scan,Subnet (101 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,8,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-30T17:19:33.926425597Z,TCP/53,service,anomaly_port_scan,Subnet (101 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,9,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-30T17:19:33.926425597Z,4,severity,anomaly_port_scan,Subnet (101 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,10,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-07T12:35:43.747657016Z,156,connections,anomaly_port_scan,Subnet (106 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,11,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-07T12:35:43.747657016Z,Zadna,domain,anomaly_port_scan,Subnet (106 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,12,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-07T12:35:43.747657016Z,UDP/3478,service,anomaly_port_scan,Subnet (106 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,13,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T13:04:04.409691938Z,124,connections,anomaly_port_scan,Subnet (119 IP),FUJITSU LIMITED,192.168.69.213,Network Sweep (Horizontalni),74:2b:62:7b:33:cd,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,14,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T13:04:04.409691938Z,Zadna,domain,anomaly_port_scan,Subnet (119 IP),FUJITSU LIMITED,192.168.69.213,Network Sweep (Horizontalni),74:2b:62:7b:33:cd,home
+,,15,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T13:04:04.409691938Z,UDP/53,service,anomaly_port_scan,Subnet (119 IP),FUJITSU LIMITED,192.168.69.213,Network Sweep (Horizontalni),74:2b:62:7b:33:cd,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,16,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T13:04:04.409691938Z,4,severity,anomaly_port_scan,Subnet (119 IP),FUJITSU LIMITED,192.168.69.213,Network Sweep (Horizontalni),74:2b:62:7b:33:cd,home
+,,17,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T13:02:04.241610954Z,116,connections,anomaly_port_scan,Subnet (124 IP),FUJITSU LIMITED,169.254.11.15,Network Sweep (Horizontalni),74:2b:62:7b:33:cd,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,18,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T13:02:04.241610954Z,Zadna,domain,anomaly_port_scan,Subnet (124 IP),FUJITSU LIMITED,169.254.11.15,Network Sweep (Horizontalni),74:2b:62:7b:33:cd,home
+,,19,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T13:02:04.241610954Z,UDP/3478,service,anomaly_port_scan,Subnet (124 IP),FUJITSU LIMITED,169.254.11.15,Network Sweep (Horizontalni),74:2b:62:7b:33:cd,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,20,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T13:02:04.241610954Z,4,severity,anomaly_port_scan,Subnet (124 IP),FUJITSU LIMITED,169.254.11.15,Network Sweep (Horizontalni),74:2b:62:7b:33:cd,home
+,,21,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-09T15:18:54.7475797Z,240,connections,anomaly_port_scan,Subnet (127 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,22,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-09T15:18:54.7475797Z,Zadna,domain,anomaly_port_scan,Subnet (127 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,23,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-09T15:18:54.7475797Z,UDP/3478,service,anomaly_port_scan,Subnet (127 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,24,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-09T15:18:54.7475797Z,4,severity,anomaly_port_scan,Subnet (127 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,25,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:26:19.232533379Z,30,connections,anomaly_port_scan,Subnet (16 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,26,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:26:19.232533379Z,Zadna,domain,anomaly_port_scan,Subnet (16 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,27,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:26:19.232533379Z,Nekolik specifickych portu,service,anomaly_port_scan,Subnet (16 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,28,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:28:19.299179821Z,37,connections,anomaly_port_scan,Subnet (17 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,29,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:28:19.299179821Z,Zadna,domain,anomaly_port_scan,Subnet (17 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,30,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:28:19.299179821Z,Nekolik specifickych portu,service,anomaly_port_scan,Subnet (17 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,31,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:25:19.0983881Z,35,connections,anomaly_port_scan,Subnet (19 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,32,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:25:19.0983881Z,Zadna,domain,anomaly_port_scan,Subnet (19 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,33,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:25:19.0983881Z,Nekolik specifickych portu,service,anomaly_port_scan,Subnet (19 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,34,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T18:32:02.612516373Z,58,connections,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,34,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:25:04.386920471Z,49,connections,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,34,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:40:04.89864387Z,47,connections,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,34,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:48:39.560507494Z,44,connections,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,34,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:31:21.630839241Z,49,connections,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,34,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:32:21.668569665Z,49,connections,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,35,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T18:32:02.612516373Z,Zadna,domain,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,35,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:25:04.386920471Z,Zadna,domain,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,35,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:40:04.89864387Z,Zadna,domain,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,35,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:48:39.560507494Z,Zadna,domain,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,35,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:31:21.630839241Z,Zadna,domain,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,35,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:32:21.668569665Z,Zadna,domain,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,36,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T18:32:02.612516373Z,TCP/53,service,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,36,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:25:04.386920471Z,UDP/9993,service,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,36,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:40:04.89864387Z,UDP/9993,service,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,36,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:48:39.560507494Z,TCP/443,service,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,36,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:31:21.630839241Z,TCP/53,service,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,36,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:32:21.668569665Z,TCP/53,service,anomaly_port_scan,Subnet (21 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,37,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:33:04.674813319Z,50,connections,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,37,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:56:05.450598781Z,49,connections,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,37,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:10:38.053604382Z,46,connections,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,37,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:25:38.672118187Z,43,connections,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,38,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:33:04.674813319Z,Zadna,domain,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,38,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:56:05.450598781Z,Zadna,domain,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,38,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:10:38.053604382Z,Zadna,domain,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,38,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:25:38.672118187Z,Zadna,domain,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,39,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:33:04.674813319Z,TCP/7680,service,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,39,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T19:56:05.450598781Z,UDP/9993,service,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,39,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:10:38.053604382Z,TCP/443,service,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,39,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:25:38.672118187Z,TCP/53,service,anomaly_port_scan,Subnet (22 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,40,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T16:51:35.884680275Z,62283,connections,anomaly_port_scan,Subnet (23 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,41,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T16:51:35.884680275Z,Zadna,domain,anomaly_port_scan,Subnet (23 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,42,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T16:51:35.884680275Z,Vice portu (62279),service,anomaly_port_scan,Subnet (23 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,43,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:29:19.342511344Z,71,connections,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,43,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:00:05.631098431Z,148,connections,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,43,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:40:39.272815105Z,45,connections,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,43,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-13T16:05:12.979644353Z,47,connections,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,44,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:29:19.342511344Z,Zadna,domain,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,44,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:00:05.631098431Z,Zadna,domain,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,44,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:40:39.272815105Z,Zadna,domain,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,44,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-13T16:05:12.979644353Z,Zadna,domain,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,45,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T17:29:19.342511344Z,Nekolik specifickych portu,service,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,45,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:00:05.631098431Z,TCP/53,service,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,45,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T20:40:39.272815105Z,TCP/443,service,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,45,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-13T16:05:12.979644353Z,UDP/3478,service,anomaly_port_scan,Subnet (23 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,46,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:48:28.552209662Z,14035,connections,anomaly_port_scan,Subnet (25 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,47,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:48:28.552209662Z,Zadna,domain,anomaly_port_scan,Subnet (25 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,48,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:48:28.552209662Z,Vice portu (5135),service,anomaly_port_scan,Subnet (25 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,49,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:48:28.552209662Z,4,severity,anomaly_port_scan,Subnet (25 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,50,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:30:21.586610757Z,57,connections,anomaly_port_scan,Subnet (25 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,51,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:30:21.586610757Z,Zadna,domain,anomaly_port_scan,Subnet (25 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,52,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:30:21.586610757Z,TCP/53,service,anomaly_port_scan,Subnet (25 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,53,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:48:24.218588098Z,10147,connections,anomaly_port_scan,Subnet (26 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,54,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:48:24.218588098Z,Zadna,domain,anomaly_port_scan,Subnet (26 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,55,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:48:24.218588098Z,Vice portu (3785),service,anomaly_port_scan,Subnet (26 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,56,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:48:24.218588098Z,4,severity,anomaly_port_scan,Subnet (26 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,57,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:27:21.473091868Z,71,connections,anomaly_port_scan,Subnet (26 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,58,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:27:21.473091868Z,Zadna,domain,anomaly_port_scan,Subnet (26 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+,,59,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-15T16:27:21.473091868Z,UDP/443,service,anomaly_port_scan,Subnet (26 IP),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,60,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-28T20:41:24.299771889Z,65539,connections,anomaly_port_scan,Subnet (27 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,60,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T16:50:35.845211261Z,1025,connections,anomaly_port_scan,Subnet (27 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,61,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-28T20:41:24.299771889Z,Zadna,domain,anomaly_port_scan,Subnet (27 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,61,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T16:50:35.845211261Z,Zadna,domain,anomaly_port_scan,Subnet (27 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,62,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-28T20:41:24.299771889Z,Vice portu (65535),service,anomaly_port_scan,Subnet (27 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,62,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-12T16:50:35.845211261Z,Vice portu (1029),service,anomaly_port_scan,Subnet (27 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,63,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-28T20:41:24.299771889Z,4,severity,anomaly_port_scan,Subnet (27 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,64,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-16T15:54:01.002921974Z,166,connections,anomaly_port_scan,Subnet (28 lok. IP / 57 celkem),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,65,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-16T15:54:01.002921974Z,Zadna,domain,anomaly_port_scan,Subnet (28 lok. IP / 57 celkem),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,double,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,66,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-16T15:54:01.002921974Z,0.43373493975903615,fail_ratio,anomaly_port_scan,Subnet (28 lok. IP / 57 celkem),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,67,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-16T15:54:01.002921974Z,UDP/53,service,anomaly_port_scan,Subnet (28 lok. IP / 57 celkem),PWRHOUSE,192.168.69.5,Network Sweep (Horizontalni),10:7c:61:06:b1:fc,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,68,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-28T20:42:24.304501907Z,5547,connections,anomaly_port_scan,Subnet (30 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,69,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-28T20:42:24.304501907Z,Zadna,domain,anomaly_port_scan,Subnet (30 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,70,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-28T20:42:24.304501907Z,Vice portu (2303),service,anomaly_port_scan,Subnet (30 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,71,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-03-28T20:42:24.304501907Z,4,severity,anomaly_port_scan,Subnet (30 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,72,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:49:28.641032492Z,77706,connections,anomaly_port_scan,Subnet (31 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,73,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:49:28.641032492Z,Zadna,domain,anomaly_port_scan,Subnet (31 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,74,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:49:28.641032492Z,Vice portu (29776),service,anomaly_port_scan,Subnet (31 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,75,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:49:28.641032492Z,4,severity,anomaly_port_scan,Subnet (31 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,76,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:49:24.234447709Z,81594,connections,anomaly_port_scan,Subnet (32 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,string,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,77,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:49:24.234447709Z,Zadna,domain,anomaly_port_scan,Subnet (32 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+,,78,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:49:24.234447709Z,Vice portu (30472),service,anomaly_port_scan,Subnet (32 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
+#group,false,false,true,true,false,false,true,true,true,true,true,true,true,true
+#datatype,string,long,dateTime:RFC3339,dateTime:RFC3339,dateTime:RFC3339,long,string,string,string,string,string,string,string,string
+#default,_result,,,,,,,,,,,,,
+,result,table,_start,_stop,_time,_value,_field,_measurement,dest_ip,device,ip,label,mac,mode
+,,79,1970-01-01T00:00:00Z,2026-04-16T23:37:33.98508448Z,2026-04-01T11:49:24.234447709Z,4,severity,anomaly_port_scan,Subnet (32 IP),PCS Computer Systems GmbH,192.168.69.208,Plosny Port Scan (Subnet),08:00:27:b6:5c:c2,home
+
